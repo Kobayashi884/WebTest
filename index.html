@@ -1,56 +1,81 @@
-
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<meta charset="utf-8">
-<title>Web2</title>
-
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-<link rel='stylesheet' href='css/style.css'>
+    <meta charset='utf-8'>
+    <title>千葉工大二輪部</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/style.css'>
+    <script src="js/script.js" defer></script>
+    <base href="index.html">
+    <body bgcolor="black" text="white"></body>
 </head>
 
-<body>
 <header id="header">
-  <h1>Title</h1>
-    <div id="video-area">
-  <video id="video" src= "video/GH010034.MP4" poster="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-3-1/img/movie.jpg" webkit-playsinline playsinline muted autoplay loop>
-    <!--
-        poster：動画ファイルが利用できない環境で代替表示される画像
-        webkit-playsinline：iOS 9までのSafari用インライン再生指定
-        playsinline：iOS 10以降のSafari用インライン再生指定
-        muted：音声をミュートさせる
-        autoplay：動画を自動再生させる
-        loop：動画をループさせる
-        controls：コントロールバーを表示する
-    -->
-  <source src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-3-1/video/movie.mp4" type="video/mp4">
-  <source src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-3-1/video/movie.ogv" type="video/ogv">
-  <source src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-3-1/video/movie.webm" type="video/webm">
-  <p>動画を再生できる環境ではありません。</p>
+    <h1>千葉工大二輪部</h1>
+    <div class="menu">
+        <div class="row">
+            <li><a href="index.html">ホーム</a></li>
 
-  </video>
-  <!--/video-area--></div>
-</header>
-<div class="container">
-  <div class="row">
-    <div class="col span-12">
-      <h2>二輪部について紹介！！</h2>
-      <img class="image"  src="img/04.jpg" alt="代わりの画像">
-        <nav>
-            <div id="navi">
-                <ul>
-                    <li><a href="sub.html">another html2</a></li>
-                    <li><a href="subpage.html">another html3</a></li>
-                    <li><a href="subpage.html">another html4</a></li>
-                    <li><a href="subpage.html">another html5</a></li>
-                    <li><a href="subpage.html">another html6</a></li>
-                </ul>
+            <li><a href="information.html">活動内容について</a></li>
+            <div class="katudou">
+
             </div>
-        </nav>
+            <li><a href="room.html">部室紹介</a></li>
+            <div class="busitu">
+            </div>
+            <li><a href="schoolbike.html">部車・装備紹介</a></li>
+            <div class="busya">
+
+            </div>
+            <li><a href="scheduel.html">スケジュール（今後の予定）</a></li>
+            <div class="scheduel">
+
+            </div>
+            <li><a href="another.html">その他ご案内</a></li>
+        </div>
     </div>
+</header>
+<div class="main">
+    <div class="mainvideo">
+        <video src="video/sample.mp4" autoplay loop muted playsinlin></video>
+    </div>
+    <div class="bikephot">
+        <h2>ホーム</h2>
+    </div>
+    <div class="slide-wrapper">
+        <div id="slide" class="slide">
+            <div>
+                <img src="img/sample.jpg" alt="">
+            </div>
+            <div>
+                <img src="img/sample1.jpg" alt="">
+            </div>
+            <div>
+                <img src="img/sample2.jpg" alt="">
+            </div>
+        </div>
+        <span id="prev" class="prev"></span>
+        <span id="next" class="next"></span>
+
+        <li class="list">
+        <li>
+        <li class="list">
+        <li>
+        <li class="list">
+        <li>
+    </div>
+    <h2>新着情報</h2>
+    <ul>
+        <li><a href="">20XX.1.1　ここに新着情報のテキストが入ります</a></li>
+        <li><a href="">20XX.1.1　ここに新着情報のテキストが入ります</a></li>
+        <li><a href="">20XX.1.1　ここに新着情報のテキストが入ります</a></li>
+        <li><a href="">20XX.1.1　ここに新着情報のテキストが入ります</a></li>
+    </ul>
 </div>
-  
-<!--/container--></div> 
 </body>
+</div>
+
+
+
 </html>

@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+span{
+    color: rgb(24, 168, 77);
+}
+
 .mainvideo video{
     object-fit:cover;
 	width: 100%; 
@@ -42,7 +46,7 @@
 }
 
 .slide{
-    width: 300%;
+    width: 500%;
     height: 100%;
     display: flex;
     transition: all 0.3;
@@ -50,7 +54,7 @@
 }
 
 .slide div{
-    width: 33.33%;
+    width: 20%;
     height: 100%;
     font-size: 16px;
     display: flex;
@@ -65,16 +69,24 @@
     height: auto;
 }
 
-.slide1 { /* スライドさせるために必要なクラス */
+.slide1 { 
     transform: translateX(0);
     transition: all 0.3s;
 }
-.slide2 { /* スライドさせるために必要なクラス */
-    transform: translateX(-33.33%);
+.slide2 { 
+    transform: translateX(-20%);
     transition: all 0.3s;
 }
-.slide3 { /* スライドさせるために必要なクラス */
-    transform: translateX(-66.66%);
+.slide3 { 
+    transform: translateX(-40%);
+    transition: all 0.3s;
+}
+.slide4{
+    transform: translateX(-60%);
+    transition: all 0.3s;
+}
+.slide5{
+    transform: translateX(-80%);
     transition: all 0.3s;
 }
 
@@ -117,11 +129,6 @@ h1{
     justify-content: center;
 }
 
-.header{
-    /* font-family: "monospace"; */
-    /* background-color:black; */
-} 
-
 .bikephot {    
     text-align: center;
     padding: 0px; 
@@ -135,4 +142,66 @@ h1{
     margin-bottom: 5px;
     border: 1px solid white; 
     background-color: white;
+}
+
+.main h2{
+    text-align: center;
+}
+
+.title{
+    margin: 5%;
+    text-align: center;
+    border: 5px solid white; 
+    border-radius: 20px;
+}
+.img1{
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 400px;
+    justify-content: center;
+    
+}
+
+.subtitle2{
+    margin-top: 5%;
+}
+
+.img2{
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 400px;
+    justify-content: center;
+}
+
+.i{
+    border-radius: 40px;
+}
+.infor{
+    margin-left: 30%;
+}
+.information{
+    margin-top: 5%;
+}
+
+.img3{
+    height: 350px;
+}
+
+.title1{
+    margin: 5%;
+    text-align: center;
+    border: 5px solid white; 
+    border-radius: 20px;
+    background-color: white;
+}
+
+.memo{
+    color: black;
+}
+
+.scheduel{
+    display: flex;
+    justify-content: center;   
 }

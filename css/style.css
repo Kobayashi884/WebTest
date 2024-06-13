@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 span{
-    color: rgb(24, 168, 77);
+    color: rgb(238, 7, 7);
 }
-
 .mainvideo video{
     object-fit:cover;
 	width: 100%; 
@@ -179,7 +178,7 @@ h1{
     border-radius: 40px;
 }
 .infor{
-    margin-left: 30%;
+    text-align: center;
 }
 .information{
     margin-top: 5%;

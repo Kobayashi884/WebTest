@@ -249,7 +249,7 @@ h1 {
     display: flex;
     margin-right: 5%;
     margin-left: 5%;
-    height: 400px;
+    height: 100%;
     justify-content: center;
 
 }
@@ -262,7 +262,7 @@ h1 {
     display: flex;
     margin-right: 5%;
     margin-left: 5%;
-    height: 400px;
+    height: 100%;
     justify-content: center;
 }
 

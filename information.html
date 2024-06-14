@@ -8,41 +8,46 @@
     <link rel='stylesheet' href='css/style.css'>
     <script src="js/script.js" defer></script>
     <base href="index.html">
-
 <body bgcolor="black" text="white"></body>
 </head>
 
-<body>
-    <header id="header">
-        <h1>千葉工大二輪部</h1>
-        <div class="menu">
-            <div class="row">
-                <li><a href="index.html">ホーム</a></li>
-
-                <li><a href="information.html">活動内容について</a></li>
-                <div class="katudou">
-
-                </div>
-                <li><a href="room.html">部室紹介</a></li>
-                <div class="busitu">
-                </div>
-                <!-- <li><a href="schoolbike.html">部車・装備紹介</a></li>
-                <div class="busya">
-
-                </div> -->
-                <li><a href="scheduel.html">スケジュール（今後の予定）</a></li>
-                <div class="scheduel">
-
-                </div>
-                <li><a href="another.html">その他ご案内</a></li>
-            </div>
+<header id="header">
+    <h1>千葉工大二輪部</h1>
+    <div class="menu">
+        <div class="row">
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="information.html">活動内容について</a></li>
+            <li><a href="room.html">部室紹介</a></li>
+            <li><a href="scheduel.html">スケジュール（今後の予定）</a></li>
+            <li><a href="another.html">その他ご案内</a></li>
         </div>
-    </header>
+    </div>
+    <div class="menu-container">
+        <input type="checkbox" id="menu-toggle">
+        <nav class="menu1">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="information.html">活動内容について</a></li>
+                <li><a href="room.html">部室紹介</a></li>
+                <li><a href="scheduel.html">スケジュール（今後の予定）</a></li>
+                <li><a href="another.html">その他ご案内</a></li>
+            </ul>
+        </nav>
+        <label for="menu-toggle" class="menu-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+    </div>
+</header>
+
+<body>
     <div class="main">
         <div class="mainvideo">
             <video src="video/sample.mp4" autoplay loop muted playsinlin></video>
         </div>
-        <div class="title">私たちはの活動では主に<strong><span>オフロード・オンロード</span></strong>や<strong><span>ツーリング</span></strong>の活動をしています。<br>
+        <div class="title">
+            私たちはの活動では主に<strong><span>オフロード・オンロード</span></strong>や<strong><span>ツーリング</span></strong>の活動をしています。<br>
             <strong><span>「バイクに興味がある、バイクが好き」</span></strong>でもバイクを持っていない方でも大歓迎です！<br>
             二輪部にはバイクが用意されていますのでもしよかったら見学に来てください！<br>
         </div>
@@ -51,26 +56,31 @@
         </div>
         <div class="img1">
             <img class="i" src="img/bikephot/IMG_9628.JPG" alt="sample">
-            <p><h3><br><br><br>オフロードは主に<span>山</span>や<span>舗装されていない道</span><br>
-            をバイクで走ります！<br><br>アウトドアや冒険が好きな人たちにはもってこいです！</h3></p>
+            <p>
+            <h3><br><br><br>オフロードは主に<span>山</span>や<span>舗装されていない道</span><br>
+                をバイクで走ります！<br><br>アウトドアや冒険が好きな人たちにはもってこいです！</h3>
+            </p>
         </div>
 
         <div class="subtitle2">
             <h2>オンロードとは？</h2>
         </div>
         <div class="img2">
-            <p><h3><br><br><br>オンロードは主に<span>サーキット</span>や<span>舗装されている道</span><br>
-            をバイクで走ります！<br><br>速く走りたい、もっとスピードが欲しい<br>という人におすすめです！</h3></p>
+            <p>
+            <h3><br><br><br>オンロードは主に<span>サーキット</span>や<span>舗装されている道</span><br>
+                をバイクで走ります！<br><br>速く走りたい、もっとスピードが欲しい<br>という人におすすめです！</h3>
+            </p>
             <img class="i" src="img/bikephot/IMG_9616.JPG" alt="sample">
         </div>
 
         <div>
             <h2 class="information">information</h2>
             <div class="infor">
-            <li>活動日： 　　　　　　 木曜日</li>
-            <li>活動時間： 　部会は1時間ほど</li>
-            <li>部員数： 　　　　　　　 40人</li>
-            <li>部費：　1000円（新入生は0円）</li>
+                <li>活動日： 　　　　　　 木曜日</li>
+                <li>活動時間： 　部会は1時間ほど</li>
+                <li>部員数： 　　　　　　　 40人</li>
+                <li>部費：　1000円（新入生は0円）</li>
+            </div>
         </div>
     </div>
 </body>

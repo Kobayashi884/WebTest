@@ -17,10 +17,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100px;
     height: 100%;
     overflow: hidden;
-    z-index: 10;
 }
 
 .menu-button {
@@ -29,7 +28,6 @@
     top: 20px;
     left: 20px;
     cursor: pointer;
-    z-index: 2;
 }
 
 .menu1 {
@@ -40,7 +38,6 @@
     height: 100%;
     background-color: #272727;
     transition: 0.4s;
-    z-index: 2;
     overflow-y: auto;
 }
 
@@ -74,7 +71,7 @@
         display: none;
     }
 
-    .menu-container {
+    .menu-button {
         display: inline;
     }
 }
